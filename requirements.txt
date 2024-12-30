@@ -1,0 +1,7 @@
+beautifulsoup4==4.12.2
+langchain 
+langchain-groq
+streamlit
+langchain_community
+requests
+googlesearch-python
