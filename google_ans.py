@@ -61,7 +61,7 @@ def answer_question_from_content(question, content):
 
 
 st.title("Google Search and LLM Question Answering")
-st.markdown("This web app takes user query, does a google search of the input text, finds top 7 URLs of the keyword, crawls the content of the 7 URLs and then uses AI/LLM to answer the question asked by user from the extarcted content after crawling.")
+st.markdown("This web app takes user query, does a google search of the input text, finds top 7 URLs of the keyword, crawls the content of the 7 URLs and then uses AI/LLM to answer the question asked by user from the extracted content after crawling.")
 # User input
 st.markdown("Developed by Ravi Shankar Prasad, Data Scientist at Beckman Life Sciences, Danaher")
 query = st.text_input("Enter your query:", "")
