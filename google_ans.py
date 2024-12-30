@@ -72,7 +72,7 @@ if query:
 
     # Get top 3 search results
     search_results = get_top_search_results(query, num_results=3)
-    st.write("Top 7 URLs:")
+    st.write("Top 3 URLs:")
     for url in search_results:
         st.write(url)
 
